@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+header {
+    height: 15vh;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+/* body {
+    background-color: rgb(227, 225, 231);
+} */
+
+h1 {
+    font-size: 43pt;
+    padding-left: 42px;
+    color: white;
+    position: relative;
+    top: 20%;
+}
+
+h2 {
+    font-size: 32pt;
+}
+
+h3 {
+    font-size: 24pt;
+}
+
+h4 {
+    font-size: 20pt;
+}
+
+p {
+    font-size: 16pt;
+}
+
+.banner {
+    background-position: center center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: rgb(126, 123, 129);
+}
+
+#degrade {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    right: 0px;
+}
+
+.logo {
+    float: right;
+    display: inline-block;
+    padding: 0;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: -24px;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    top: -409px;
+    left: 800%;
+    color: rgb(255, 255, 255);
+}
+
+.col1 {
+    display: block;
+    font-size: 24pt;
+    float: right;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    z-index: 2;
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+}
+
+/* #barra-navegacion {
+    background-color: rgb(5, 7, 131);
+    height: 40px;
+    float: center;
+    color: white;
+    text-align: center;
+    background-position: center;
+} */
+
+a {
+    display: block;
+}
+
+.col2 {
+    float: right;
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    z-index: 2;
+}

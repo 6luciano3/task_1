@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: EMcomic;
+    font-style: normal;
+}
+
+header {
+    height: 36vh;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    background-color: rgb(227, 225, 231);
+}
+
+h1 {
+    font-size: 54pt;
+    padding-left: 20px;
+    text-shadow: 5px 5px 6px white;
+}
+
+h2 {
+    font-size: 32pt;
+}
+
+h3 {
+    font-size: 24pt;
+}
+
+h4 {
+    font-size: 20pt;
+
+}
+
+p {
+    font-size: 16pt;
+
+}
+
+header {
+    display: inline-block;
+}
+
+.banner {
+    background-image: url(/fotos/design1_image1.jpg);
+    background-position: center center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.logo {
+    float: right;
+    display: inline-block;
+    border: 10px solid rgb(117, 115, 115);
+    padding: 0;
+    background-color: rgb(5, 7, 131);
+    width: 300px;
+    padding-bottom: 15px;
+    position: relative;
+    top: 160px;
+    left: -24px;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    width: 85%;
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 2%;
+    margin: 25px;
+}
+
+.col1 {
+    display: block;
+    font-size: 24pt;
+    float: right;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    z-index: 2;
+    text-decoration: none;
+}
+
+#barra-navegacion {
+    background-color: rgb(5, 7, 131);
+    height: 40px;
+    float: center;
+    color: white;
+    text-align: center;
+    background-position: center;
+}
+
+
+a {
+    display: block;
+}
+
+.col2 {
+    float: right;
+    position: absolute;
+    top: 42%;
+    left: 17%;
+    z-index: 2;
+}
