@@ -8,10 +8,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.fas {
-    font-size: 1.2em;
-}
-
 .navbar {
     background-color: #EDCB54;
     display: grid;
@@ -106,7 +102,7 @@ p {
     font-size: 12pt;
 }
 
-.radio-section {
+.footer {
     display: grid;
     height: 80px;
     align-items: center;
@@ -116,25 +112,12 @@ p {
         "listen-online follow-me social-network"
 }
 
-.radio-section .listen-online {
-    grid-template-areas: listen-online;
-    display: flex;
-    justify-content: center;
-    background-color: #EDCB54;
-    color: #181818;
-    padding: 26px;
-}
 
-.radio-section .listen-online .fas {
-    margin-right: 15px;
-    font-size: 1.5em;
-}
-
-.radio-section .social-network {
+.footer .social-network {
     grid-template-areas: social-network;
 }
 
-.radio-section .social-network .fab {
+.footer .social-network .fab {
     font-size: 1.4em;
     color: #EDCB54;
     margin-right: 15px;
